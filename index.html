@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Sing Up Page</title>
-	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="style/reset.css">
-<body>
-<h1>Sing Up Form</h1>
- <!-- form here -->
- <form method="get" autocomplete="on" enctype="multipart/form-data">
-  <div class="form-example">
-    <label for="fname">First Name:</label>
-    <input type="text" name="fname" id="fname" required>
-  </div>
-  <div class="form-example">
-    <label for="lname">Last Name:  </label>
-    <input type="text" name="lname" id="lname" required>
-  </div>
-  <div class="form-example">
-    <label for="email">email: </label>
-    <input type="email" name="email" id="email" required>
-  </div>
-  <div class="form-example">
-    <label for="date">Date of Birth: </label>
-    <input type="date" name="date" id="date" required>
-  </div>
-  <div class="form-example">
-   <input type="checkbox" id="newsletter" name="newsletter" value="yes"> 
-   <label for="newsletter"> I want to join the weekly newsletter</label>
-  </div>
-  <div class="form-example">
-    <input type="submit" value="Sign up!">
-  </div>
-</form>
+  <meta charset="UTF-8">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="style/style.css">
+	<!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<!-- form here -->
+  <body>
+  <div id="wrapper">
+    <div id="header">
+	  <h1>Sign Up Form</h1>
+	  <p class="paraH1">Thank you for your interes in the beta-testing of the new Pac-Man game!</p>
+	  <p class="paraH1">Please fill out this form to participate in the game testing</p>
+    </div>
 
-</body>
-
+	<div id="main">
+      <form class="fillOutForm" method="get" autocomplete="on" enctype="multipart/form-data">
+        <div class="form-example">
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" required>
+        </div>
+        <div class="form-example">
+          <label for="lname">Last Name:  </label>
+          <input type="text" name="lname" id="lname" required>
+        </div>
+        <div class="form-example">
+          <label for="email">E-mail: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+          <label for="date">Date of Birth: </label>
+          <input type="date" name="date" id="date" required>
+        </div>
+        <div class="form-example">
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes"> 
+          <label for="newsletter"> I want to join the weekly newsletter</label>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Sign up!">
+        </div>
+      </form>
+    </div>
+  </div>
+  </body>
 </html>

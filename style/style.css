@@ -1,8 +1,30 @@
-form.form-example {
+#header{
+  display: block;
+  float: center;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#main{
+	display: block;
+	float: center;
+	width: 100%;
+	margin: auto;
+}
+
+#wrapper{
+	width: 960px;
+	margin: auto;
+	float: center;
+}
+
+
+.form-example {
     display: table;
 }
 
-div.form-example {
+.form-example {
     display: table-row;
 }
 
@@ -14,10 +36,25 @@ label, input {
 label {
     padding-right: 10px;
 }
+.fillOutForm{
+	display: block;
+	width: 100%;
+	background-color: lime;
+	font-family: Roboto;
+}
 /* Set the background color of body to tan */
 body {
   background-color: tan;
 }
+h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 3em;
+}
+.paraH1 {
+	font-family: Roboto;
+	font-size: 1.5em;
+}
+
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
@@ -25,6 +62,7 @@ body {
     background-color: blue;
   }
 }
+
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
