@@ -9,23 +9,24 @@
 #main{
 	display: block;
 	float: center;
-	width: 100%;
+	width: 700px;
 	margin: auto;
+	background: lime;
+	font-family: Roboto;
 }
 
 #wrapper{
 	width: 960px;
-	margin: auto;
+	margin: 0 auto;
 	float: center;
 }
 
 
 .form-example {
-    display: table;
-}
-
-.form-example {
     display: table-row;
+}
+.form-example1 {
+    display: table;
 }
 
 label, input {
@@ -58,15 +59,25 @@ h1{
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
-  body {
+body {
     background-color: blue;
   }
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	float: center;
+}
 }
 
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  body {
+body {
     background-color: olive;
   }
+  #wrapper{
+	width: 100%;
+	margin: 0 auto;
+	float: center;
+}
 }
