@@ -7,17 +7,34 @@
 <body>
 <section> <!-- box for the singup process here -->
 <h1>Sing Up Form<h1>
-<div> <!-- form here -->
-<p>First Name</p>
-<p>Last Name</p>
-<p>e-mail</p>
-<p>address</P>
-<p>DOB</p>
-<p>I want to join weekly newsletter</p>
+ <!-- form here -->
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" required>
+  </div>
+  <div class="form-example">
+    <label for="lname">Last Name:  </label>
+    <input type="text" name="lname" id="lname" required>
+  </div>
+  <div class="form-example">
+    <label for="email">email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-example">
+    <label for="name">Date of Birth: </label>
+    <input type="date" name="date" id="date" required>
+  </div>
+  <div>
+   <input type="checkbox" id="newsletter" name="newsletter" value="yes"> 
+   <label for="newsletter"> I want to join the weekly newsletter</label>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Sign up!">
+  </div>
+</form>
 </div>
-<div> <!-- button here -->
-<p>Click to SingUp</p> 
-</div>
+
 </section>
 
 
