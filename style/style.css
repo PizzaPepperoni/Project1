@@ -73,7 +73,6 @@ body {
 @media screen and (max-width: 600px) {
 body {
     background-color: olive;
-	font-size: 1 em;
   }
   #wrapper{
 	width: 100%;
