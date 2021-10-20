@@ -1,6 +1,5 @@
 #header{
   display: block;
-  float: center;
   width: 80%;
   text-align: center;
   margin: auto;
@@ -8,7 +7,6 @@
 
 #main{
 	display: block;
-	float: center;
 	width: 700px;
 	margin: auto;
 	background: lime;
@@ -18,7 +16,7 @@
 #wrapper{
 	width: 960px;
 	margin: 0 auto;
-	float: center;
+	
 }
 
 
@@ -67,7 +65,6 @@ body {
 #wrapper{
 	width: 100%;
 	margin: 0 auto;
-	float: center;
 }
 }
 
@@ -81,6 +78,5 @@ body {
   #wrapper{
 	width: 100%;
 	margin: 0 auto;
-	float: center;
 }
 }
