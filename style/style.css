@@ -3,10 +3,14 @@ head{
 }
 
 footer{
-position: relative;
+width: 100%;
+background-color: white;
+text-align: center;
 font-family: sans sarif;
 font-size: 12pt;
-margin-bottom: 0;
+margin: auto;
+width: 100%;
+
 }
 
 
