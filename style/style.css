@@ -1,80 +1,90 @@
+head{
+	
+}
+
+footer{
+position: relative;
+font-family: sans sarif;
+font-size: 12pt;
+margin-bottom: 0;
+}
+
+
+body {
+  background-color: #1919A6;
+  margin-top: 50px;
+}
+
 #header{
   display: block;
+  float: center;
   width: 80%;
   text-align: center;
   margin: auto;
 }
 
 #main{
-	display: block;
-	width: 700px;
-	margin: auto;
-	background: lime;
-	font-family: Roboto;
+  display: block;
+  width: 700px;
+  margin: auto;
+  background: lime;
+  font-family: Roboto;
 }
 
 #wrapper{
-	width: 960px;
-	margin: 0 auto;
-	
+  width: 960px;
+  margin: auto;
 }
-
 
 .form-example {
-    display: table-row;
+  display: table-row;
 }
 .form-example1 {
-    display: table;
+  display: table;
 }
 
 label, input {
-    display: table-cell;
-    margin-bottom: 10px;
+  display: table-cell;
+  margin-bottom: 10px;
 }
 
 label {
-    padding-right: 10px;
+
+}
+.fillOutForm{
+  display: block;
+  width: 100%;
+  background-color: lime;
+  font-family: Roboto;
 }
 
-.fillOutForm{
-	display: block;
-	width: 100%;
-	background-color: lime;
-	font-family: Roboto;
-}
-/* Set the background color of body to tan */
-body {
-  background-color: tan;
-}
+
+
 h1{
-	font-family: 'Press Start 2P', cursive;
-	font-size: 3em;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
 }
 .paraH1 {
-	font-family: Roboto;
-	font-size: 1.5em;
+  font-family: Roboto;
+  font-size: 1.5em;; 
 }
 
-
-/* On screens that are 992px or less, set the background color to blue */
+/* media screeen for 992px */
 @media screen and (max-width: 992px) {
-body {
-    background-color: blue;
-  }
+
 #wrapper{
-	width: 100%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 }
 
 
-/* On screens that are 600px or less, set the background color to olive */
+/* media screeen for 600px and less */
 @media screen and (max-width: 600px) {
-body {
-    background-color: olive;
-  }
-  #wrapper{
-	width: 100%;
-	margin: 0 auto;
+	
+ #wrapper{
+  width: 90%;
+  margin: 0 auto;
+  float: center;
 }
 }
