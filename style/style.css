@@ -1,35 +1,31 @@
-head{
-	
-}
-
 footer{
 width: 100%;
 background-color: white;
 text-align: center;
-font-family: sans sarif;
+font-family: 'Press Start 2P';
 font-size: 12pt;
 margin: auto;
 width: 100%;
-
 }
-
-
 body {
   background-color: #1919A6;
   margin-top: 50px;
 }
+form{
+padding: 50px;
+width: 500px;
 
+}
 #header{
-  display: block;
-  float: center;
-  width: 80%;
+  width: 100%;
   text-align: center;
-  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #main{
   display: block;
-  width: 700px;
+  width: 960px;
   margin: auto;
   background: lime;
   font-family: Roboto;
@@ -42,6 +38,7 @@ body {
 
 .form-example {
   display: table-row;
+  font-size: 25pt;
 }
 .form-example1 {
   display: table;
@@ -55,30 +52,25 @@ label, input {
 label {
 
 }
-.fillOutForm{
-  display: block;
-  width: 100%;
-  background-color: lime;
-  font-family: Roboto;
-}
-
 
 
 h1{
   font-family: 'Press Start 2P', cursive;
   font-size: 3em;
+  margin: 25px;
 }
 .paraH1 {
   font-family: Roboto;
-  font-size: 1.5em;; 
+  font-size: 1.5em;
+  margin: 10px;
 }
 
 /* media screeen for 992px */
 @media screen and (max-width: 992px) {
 
 #wrapper{
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
 }
 }
 
@@ -87,8 +79,7 @@ h1{
 @media screen and (max-width: 600px) {
 	
  #wrapper{
-  width: 90%;
-  margin: 0 auto;
-  float: center;
+  width: 100%;
+  margin: auto;
 }
 }
