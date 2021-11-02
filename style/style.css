@@ -52,8 +52,6 @@ label, input {
 label {
 
 }
-
-
 h1{
   font-family: 'Press Start 2P', cursive;
   font-size: 3em;
@@ -72,6 +70,10 @@ h1{
   width: 100%;
   margin: auto;
 }
+form{
+padding: auto;
+width: 100%;
+}
 }
 
 
@@ -81,5 +83,8 @@ h1{
  #wrapper{
   width: 100%;
   margin: auto;
+}
+form{
+width: 100%;
 }
 }
