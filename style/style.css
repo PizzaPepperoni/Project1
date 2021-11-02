@@ -9,17 +9,16 @@ margin: auto;
 padding: 0.25em;
 width: 100%;
 }
+
 body {
   background-color: #1919A6;
   margin: auto;
 }
 
-/* desktop version screen size >=960px*/
-form{
-padding: 50px;
-width: 500px;
 
-}
+/* desktop version screen size >=960px*/
+
+/*HEADER*/
 #header{ 
   border-radius: 50px;
   margin-left: auto;
@@ -32,11 +31,23 @@ width: 500px;
   background-color: #0F469D;
 }
 
+.paraH1 {
+  font-family: Roboto;
+  font-size: 1.5em;
+  color: #FFFF00;
+  margin: 10px;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
+  margin: 25px;
+}
+/*MAIN WRAPPER (around all sections*/
 #main{
   display: block;
   width: 960px;
   margin: auto;
-  background: lime;
   font-family: Roboto;
 }
 
@@ -45,9 +56,28 @@ width: 500px;
   margin: auto;
 }
 
+/*SECTIONS*/
+
+.section-header{
+	text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #0F469D;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*form properties*/
+form{
+padding: 50px;
+width: 500px;
+background-color: yellow;
+border-radius: 50px;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
 .form-fields {
-  display: table-row;
-  font-size: 25pt;
+ 
 }
 .form-button-field {
 
@@ -62,20 +92,10 @@ label, input {
   margin-bottom: 10px;
 }
 
-label {
+input{
+	width: 100%;
+}
 
-}
-h1{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3em;
-  margin: 25px;
-}
-.paraH1 {
-  font-family: Roboto;
-  font-size: 1.5em;
-  color: #FFFF00;
-  margin: 10px;
-}
 
 /* media screeen for 992px */
 @media screen and (max-width: 992px) {
