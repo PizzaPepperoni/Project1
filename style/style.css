@@ -76,13 +76,22 @@ margin-top: 2em;
 margin-bottom: 2em;
 }
 
-.form-fields {
- 
+.section-content{
+	background-color: yellow;
+	border-radius: 50px;
+	padding: 50px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: 1.5em;
 }
+
 .form-button-field {
-
+width: 300px;
 }
-
+#button-field{
+font-size: 2em;
+}
 .form-checkbox-field{
 
 }
@@ -93,7 +102,15 @@ label, input {
 }
 
 input{
-	width: 100%;
+  width: 100%;
+}
+iframe{
+	width: 700px;
+	margin-left: 130px;
+	margin-right: 130px;
+	height: 350px;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 
