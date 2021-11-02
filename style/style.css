@@ -68,7 +68,7 @@ h1{
 /*form properties*/
 form{
 padding: 50px;
-width: 500px;
+width: 860px;
 background-color: yellow;
 border-radius: 50px;
 margin-top: 2em;
@@ -93,6 +93,7 @@ border-radius: 50px;
 font-family: 'Press Start 2P';
 padding: 10px;
 margin-top: 15px;
+margin-left: 330px;
 }
 
 label, input {
@@ -102,6 +103,10 @@ label, input {
 
 input{
   width: 100%;
+}
+
+#newsletter{
+	
 }
 
 iframe{
