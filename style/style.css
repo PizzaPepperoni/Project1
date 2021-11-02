@@ -1,12 +1,15 @@
+/*the same for all*/
 footer{
 width: 100%;
 background-color: white;
 text-align: center;
 font-family: 'Press Start 2P';
-font-size: 12pt;
+font-size: 1.5em;
 margin: auto;
 width: 100%;
 }
+
+/* desktop version screen size >=960px*/
 body {
   background-color: #1919A6;
   margin-top: 50px;
