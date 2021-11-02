@@ -36,12 +36,16 @@ width: 500px;
   margin: auto;
 }
 
-.form-example {
+.form-fields {
   display: table-row;
   font-size: 25pt;
 }
-.form-example1 {
-  display: table;
+.form-button-field {
+
+}
+
+.form-checkbox-field{
+
 }
 
 label, input {
