@@ -9,22 +9,27 @@ margin: auto;
 padding: 0.25em;
 width: 100%;
 }
-
-/* desktop version screen size >=960px*/
 body {
   background-color: #1919A6;
-  margin-top: 50px;
+  margin: auto;
 }
+
+/* desktop version screen size >=960px*/
 form{
 padding: 50px;
 width: 500px;
 
 }
-#header{
-  width: 100%;
+#header{ 
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 940px;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
+  background-color: #0F469D;
 }
 
 #main{
@@ -68,6 +73,7 @@ h1{
 .paraH1 {
   font-family: Roboto;
   font-size: 1.5em;
+  color: #FFFF00;
   margin: 10px;
 }
 
