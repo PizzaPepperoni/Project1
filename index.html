@@ -6,6 +6,7 @@
   <link rel="icon" href="image/pac-ghost.png">
   <link rel="stylesheet" type="text/css" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
+  <script type="text/javascript" src="java/script.js"></script>
 	<!--fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap" rel="stylesheet">
  </head>
@@ -20,7 +21,7 @@
 	    <p>Sing up form</p>
 	  </div>
 	  <div class="singup-form">
-      <form method="get" autocomplete="on" enctype="multipart/form-data">
+       <form method="get" action="#null">
         <div class="form-fields">
           <label for="fname">First Name:</label>
           <input type="text" name="fname" id="fname" required>
@@ -36,15 +37,12 @@
         <div class="form-fields">
           <label for="date">Date of Birth:</label>
           <input type="date" name="date" id="date" required>
-        </div>
-		 <div class="form-checkbox-field">
-          <input id="newsletter" type="checkbox" name="newsletter" value="yes"> 
-		  <label for="newsletter">I want to join the weekly newsletter</label>
-        </div>
+        </div>   
         <div class="form-button-field">
-          <input id="button-field" type="submit" value="Sign me up!">
+          <button onclick="firstFunction()">Sing me up!</button>
         </div>
       </form>
+	  	
 	  </div>
 	    <div class="about-section">
 	      <div class="section-header">
