@@ -160,7 +160,8 @@ button{
 }
 
 input{
- font-size: 2em;
+ font-size: 1em;
+ height: 50px;
 }
 
 iframe {
@@ -208,9 +209,13 @@ h1{
   margin-right: auto;
 }	
 input{
- width: 80%;
- font-size: 4em;
- margin-left: 10px;
+  width: 80%;
+  font-size: 1em;
+  margin-left: 10px;
+  height: 75px;
+}
+.form-fields{
+	font-size:2em;
 }
 
 /* sign up button 600-*/
