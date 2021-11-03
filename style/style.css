@@ -16,7 +16,7 @@ body {
 
 /* desktop version screen size >=960px*/
 
-/*HEADER*/
+/*HEADER 960+*/
 #header{ 
   border-radius: 50px;
   margin-left: auto;
@@ -41,7 +41,7 @@ h1{
   font-size: 3em;
   margin: 25px;
 }
-/*MAIN WRAPPER (around all sections*/
+/*MAIN WRAPPER (around all sections) 960+*/
 #main{
   display: block;
   width: 960px;
@@ -50,7 +50,7 @@ h1{
 }
 
 
-/*SECTIONS*/
+/*SECTIONS* 960+/
 
 /*headers of the sections but not main header*/
 .section-header{
@@ -84,7 +84,7 @@ h1{
   text-align: center;
   font-size: 1.5em;
 }
-
+/*sign up button 960+*/
 button{
   font-size: 0.75em;
   width: 300px;
@@ -105,7 +105,6 @@ input{
   width: 100%;
 }
 
-
 iframe{
   width: 700px;
   margin-left: 130px;
@@ -117,72 +116,59 @@ iframe{
 /*---------------------------------------------------------*/
 
 /* media screeen for more than 600px less than 960px */
-@media screen and (max-width: 960px)
-{
+@media screen and (max-width: 960px){
+/*MAIN 600-960*/
 #main{
   display: block;
   width: 100%;
   margin: auto;
   font-family: Roboto;
 }
+/*HEADER 600-960*/
 #header{ 
   border-radius: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25px;
-  width: 100%;
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-color: #0F469D;
+  margin: 25px auto 50px auto;
 }
-
+/* section header 600-960*/
 .section-header {
   text-align: -webkit-center;
   font-size: 2em;
-width: 100%;
-    border-radius: 0px;
-	margin-right: 25px;
+  border-radius: 0px; 
+  margin: auto;
 }
-.section-content{
-	width: 80%;
-	border-radius: 0px;
-	padding: 10px;
-margin-top: 2em;
-margin-bottom: 2em;
-margin-left: auto;
-margin-right: auto;
-	text-align: center;
-	font-size: 1.5em;
-}	
-button{
-float: center;
-width: 100%;
-border-radius: 50px;
-font-family: 'Press Start 2P';
-padding: 10px;
-margin-top: 15px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 15px;
-}
+/* sign up 600-960*/
 #signup-form{
-padding: 25px;
-width: 80%;
-border-radius: 0px;
-margin-top: 2em;
-margin-bottom: 2em;
-margin-left: auto;
-margin-right: auto;
+  width: 80%;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
+/* desc of the game 600-960*/
+.section-content{
+  width: 80%;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}	
+/* button 600-960*/
+button{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
 input{
- width: 100%;
  font-size: 2em;
 }
+
 iframe {
-	width: 80%;
-	margin-top: 2em;
-	margin-bottom: 2em;
+  width: 80%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 60px;
+  margin-right: 60px;
 }	
 
 }
@@ -190,51 +176,69 @@ iframe {
 /*---------------------------------------*/
 /* media screeen for 600px and less */
 @media screen and (max-width: 600px) {
-	#main{
+/* MAIN 600-*/
+#main{
   display: block;
   width: 100%;
   margin: auto;
   font-family: Roboto;
 }
-button{
-float: left;
-font-size: 1em;
-width: 80%;
-border-radius: 50px;
-font-family: 'Press Start 2P';
-padding: 10px;
-margin-top: 15px;
-margin-left: auto;
+/* HEADER 600-*/
+#header{ 
+  width: 100%;
+  border-radius: 0px;
+  margin: 25px auto 50px auto;
 }
-
+h1{
+  font-size: 2.5em;
+  margin: auto;
+}
+/* section header 600-*/
 .section-header{
-	text-align: left;
-	font-size: 2em;
-	width: 100%;
-    padding: 10px;
-    border-radius: 0px;
-    background-color: #0F469D;
-    font-family: 'Press Start 2P', cursive;
+  text-align: left;
+  font-size: 2em;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px;
 }
-.section-content{
-	width: 80%;
-	border-radius: 0px;
-	padding: 10px;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	text-align: center;
-	font-size: 1.5em;
+#signup-form{
+  width: 100%;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }	
 input{
- width: 100%;
+ width: 80%;
  font-size: 4em;
+ margin-left: 10px;
+}
+
+/* sign up button 600-*/
+button{
+  font-size: 1em;
+  width: 80%;
+  border-radius: 50px;
+  padding: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
+/* desc of the game 600-*/
+.section-content{
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
 	
 iframe{
-	width: 100%;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 2em;
-	margin-bottom: 2em;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }	
 }
